@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #3e4a61;
+  }
+  
+  .top-msg{
+    width: 80%;
+    margin: 50px auto;
+  }
+  
+  .calc-cont{
+    background: #3e4a61;
+    display: flex;
+  }
+  
+  
+  .calc-table{
+    flex-basis: 50%;
+    padding: 10px auto;
+  }
+  
+  .calc-flex{
+    flex-basis: 50%;
+    background: #1D2D44;
+    color: #fff;
+  }
+  
+  table{
+    width: 50%;
+    margin: 40px auto;
+    border: 2px solid;
+  }
+  
+  
+  .calc-btn{
+    background: #3e4a61;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  .active{
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .conpg{
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .regpg{
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logpg{
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  *{
+              box-sizing: border-box;
+          }
+          body{
+              min-height: 100vh;
+              display:flex;
+              justify-content: center;
+              align-items: flex-start;
+          }
+          .container{
+              display:flex;
+              flex-wrap: wrap;
+              flex: 0 1 60%;
+              min-width:400px;
+          }
+  
+          .buttons,.result{
+              display: flex;
+              flex-wrap: wrap;
+              flex: 0 1 100%;
+          }
+          .result{
+              height: 50px;
+              border: 1px solid black;
+              justify-content: flex-end;
+              align-items: center;
+              font-size: 1.5em;
+              background: #000;
+              color:#fff;
+              padding:0 10px;
+          }
+          .button{
+              display:flex;
+              flex: 0 1 25%;
+              justify-content: center;
+              align-items: center;
+              height: 50px;
+              border: 1px solid black;
+              border-top:none;
+              border-left:none;
+              cursor: pointer;
+              background: -webkit-linear-gradient(top,#3e4a61,#ddd);
+              font-size:2em;
+          }
+          .button:nth-child(4n+1){
+              border-left: 1px solid black;
+          }
+          .button:nth-child(4n),.button:last-child{
+              background: #1D2D44;
+              color: #fff;
+          }
+          .zero-btn{
+              flex-grow: 2;
+          }
+          .doubleBordered{
+              border: 2px solid black;
+          }

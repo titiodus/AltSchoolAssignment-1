@@ -1,0 +1,182 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  header{
+      background-color: #1D2D44;
+      color: #fff;
+      padding-right: 20px;
+  }
+  
+  .button{ 
+      height: 25px;
+      background-color: #00FFC6;
+      border-radius: 10px;
+      margin-top: 230px;
+      margin-left: -60px;   
+  }
+  
+  /* Styling the introduction in my header */
+  
+  .top-page{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .intro{
+      padding-top: 10px;
+      padding-left: 16px;
+  }
+  
+  .myname{
+      font-family: 'Poppins', sans-serif;
+      font-size: xx-large;
+  }
+  
+  .top-line{
+      margin-bottom: 40px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+  }
+  
+  .track{
+      font-size: 10px;
+      margin-top: -5px;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Styling the navigation buttons */
+  
+  .active{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  
+  .conpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  
+  .regpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  
+  .logpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      border-radius: 5px;
+  }
+  
+  /* styling my image  */
+  
+  .my-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    border: solid;
+  }
+  
+  /* Styling the main section */
+  main{
+     background-color: #3e4a61;
+     color: #fff;
+  }
+  
+  .bio{
+      padding: 40px 20px;
+      text-align: center;
+      
+  }
+  
+  .me{
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-size: small;
+  }
+  
+  .goals{
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-size: small;
+  }
+  
+  .edu{
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px; 
+      font-family: 'Poppins', sans-serif;
+      font-size: small;
+  }
+  
+  .expr{
+      margin-left: 20px;
+      margin-top: 20px; 
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-size: small;
+  }
+  
+  /* Styling my submit button */
+  
+  .sub-btn{
+      background:#1D2D44;
+      width: 100px;
+      border: none;
+      outline: none;
+      color:#fff;
+      height: 35px;
+      border-radius: 10px;
+      margin-top: 10px;
+  }
+  
+  /* Styling my footer */
+  footer{
+      background-color: #1D2D44;
+      color:#fff;
+      display: flex;
+      padding: 25px 200px;
+      text-align: center;
+      justify-content: space-between;
+      
+  }
+  
+  tr td:first-child{
+      padding-right: 20px;
+  
+  }
+  
+  tr td:first-child{
+      padding-top: 20px;
+  }
+  
+  tr td:last-child{
+      padding-top: 30px;
+  }
+  
+  h3{
+      font-family: 'Poppins', sans-serif;
+      padding-left: 16px;
+  }
+  
+  p{
+      font-family: 'Poppins', sans-serif;
+  }

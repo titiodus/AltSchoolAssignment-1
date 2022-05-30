@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment:Registerpage</title>
+    <link href="registerpg.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header></header>
+    <main class="rgn-cntr">
+      <div class="rgn-left">
+        <h3>Register by filling the form below.</h3>
+
+        <form action="" method="post">
+          <div class="input-rw"> <!-- first row -->
+            <div class="in-grp">
+                <label for="first_name">First Name</label>
+                <input 
+                type="text" 
+                name="first_name" 
+                id="first_name" 
+                class="first_name"
+                required
+                />
+            </div>
+
+            <div class="in-grp">
+                <label for="last_name">Last Name</label>
+                <input 
+                type="text" 
+                name="last_name" 
+                id="last_name" 
+                class="last_name"
+                required
+                />
+            </div>
+          </div> <!-- closing first row -->
+
+          <div class="input-rw"> <!-- second row -->
+            <div  class="in-grp">
+                <label for="phone_number">Phone Number</label>
+                <input 
+                type="tel" 
+                name="phone_number" 
+                id="phone_number" 
+                class="phone_number"
+                required
+                />
+            </div>
+<!--             <br> -->
+            <div class="in-grp">
+                <label for="gender">Gender</label>
+                <select name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="rather_not_say">Prefer not to say</option>
+                </select>
+            </div>
+          </div> <!-- closing second row -->
+
+          <div class="input-rw"> <!-- third row -->
+            <div  class="in-grp">
+                <label for="country">Country</label>
+                <input 
+                type="text" 
+                name="country" 
+                id="country" 
+                class="country"
+                required
+                />
+            </div>
+
+            <div class="in-grp">
+                <label for="state-province">State/Province</label>
+                <input 
+                type="text" 
+                name="state-province" 
+                id="state-province" 
+                class="state-province"
+                required
+                />
+            </div>
+          </div> <!-- closing third row -->
+
+          <div class="input-rw"> <!-- fourth row -->
+            <div  class="in-grp">
+                <label for="user-name">Username</label>
+                <input 
+                type="text" 
+                name="user-name" 
+                id="user-name" 
+                class="user-name"
+                required
+                />
+            </div>
+
+            <div class="in-grp">
+                <label for="password">Password</label>
+                <input 
+                type="password" 
+                name="password" 
+                id="password" 
+                class="password"
+                required
+                />
+            </div>
+          </div> <!-- closing fourth row -->
+
+          <div class="input-rw"> <!-- fifthh row -->
+            <div  class="in-grp">
+                <label for="cfm-pswd"> Confirm Password</label>
+                <input 
+                type="password" 
+                name="cfm-pswd" 
+                id="cfm-pswd" 
+                class="cfm-pswd"
+                required
+                />
+            </div>
+          </div> <!-- closing fifth row -->
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+
+          <div class="form-btm">
+            <button type="submit" class="regbtn">Register</button>
+
+            <div class="login-container">
+                <p>Already have an account? <a href="loginpg.html">Login</a></p>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="rgn-right">
+        <p>Register and join a vibrant community of great minds and top-notch opportunities.</p>
+        <p>Read all about me by clicking the button below</p>
+
+        <div>
+          <a class="home" href="aboutme.html">Home</a>
+        </div>
+        
+      </div>
+      
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

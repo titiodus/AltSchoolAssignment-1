@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background: #3e4a61;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .rgn-cntr{
+    width: 80%;
+    background: #fff;
+    display: flex;
+    margin: 0 auto;
+    border: solid #3e4a61;
+  }
+  
+  .rgn-left{
+    flex-basis: 60%;
+    background: #1D2D44;
+    color: #fff;
+    padding: 40px 60px;
+    font-weight: lighter;
+  }
+  
+  .rgn-right{
+    flex-basis: 40%;
+    padding: 40px;
+    color: #3e4a61;
+    font-weight: 600;
+  }
+  
+  .input-rw{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+  
+  .input-rw in-grp{
+    flex-basis: 45%; 
+  }
+  
+  input{
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  
+  button{
+    background: #3e4a61;
+    color: #00FFC6;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+  }
+  
+  .form-btm{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .home{
+    width: 100%;
+    text-align: center;
+    background: #1D2D44;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    margin: 5px 0 20px 180px;
+  }
+  

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment: Contactpage</title>
+    <link href="contactpg.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+            <div class="top-message">
+                <h2>Reach Out</h2>
+                <p>I would love to hear from you and I promise to respond to your enquiry.</p>
+            </div>
+    </header>
+
+    <main class="add-container">
+            
+            <div class="addr-left">
+                <h3 class="ctc-det">Our contact details</h3>
+
+                <table>
+                    <tr>
+                        <td>Address</td>
+                        <td>Cloud Engineering tract-ville AltSchool Africa</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone</td>
+                        <td>+23480********</td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td>titioduwole@gmail.com</td>
+                    </tr>
+                </table>
+              <p> Need more details about me. Click on the button below.</p>
+                    <div class="home">
+                        <a href="aboutme.html">Home</a>
+                    </div>
+            </div>
+
+
+
+            <div class="addr-right">
+                <h3 class="sd-msg">Send A Message</h3>
+            
+                <form>
+                    <div class="in-rw">
+                        <div class="in-gp">
+                            <label for="name">Name</label>
+                            <input type="text" name="name"   id="name" required>
+                        </div> <!--closing tab for in-gp -->
+                    
+                        <div class="in-gp">
+                            <label for="email">Email Address</label>
+                            <input type="email" email="email" id="email" required>
+                        </div>
+
+                        <div class="in-gp">
+                            <label for="email">Subject</label>
+                            <input type="text" name="Subject" id="Subject" required>
+                        </div>
+
+                        <div class="priority">
+                            <label for="priority-select">Priority</label>
+                            <select name="Priority" id="priority-select">
+                                <option value="">Select Priority</option>
+                                <option value="High">High</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Low">Low</option>
+                            </select>
+                        </div> <!-- closing gap for priority-->
+                
+                        
+                        <label for="message">Message</label>
+                        <textarea rows="5" placeholder="Write your message"></textarea>
+                    
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                    </div>
+                </form>
+            </div>
+    </main>
+      
+</body>
+</html>

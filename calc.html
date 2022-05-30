@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calc.css" rel="stylesheet" type="text/css" />
+    <title>Assignment: Calculator</title>
+</head>
+<body>
+
+  <header class="main-cont">
+            <div class="top-msg">
+                <h2>My Calculators</h2>
+                <p>Remember to explore:</p>
+                <p><a class="active" href="aboutme.html">Home</a></p>
+                <p><a class="conpg"     href="contactpg.html">Contact</a></p>
+                <p><a class="regpg" href="registerpg.html">Register</a></p>
+                <p><a class="logpg" href="loginpg.html">Login</a></p>
+            </div>
+  </header>
+
+    <main class="calc-cont">
+            
+      <div class="calc-table">
+        <h3>Calculator using tables</h3>
+        <table border="1">
+                <tr>
+                  <div class="container">
+                      <div class="result">0</div>
+                  </div>
+<!--                  <th colspan="4"><input class="displ-scrn" type="text" name="Input" Size="100" id="display">0</th>    -->
+                </tr>
+      
+                <tr>
+                    <td><input class="calc-btn"  value="AC"></td>
+                    <td><input class="calc-btn"  value="()"></td>
+                    <td><input class="calc-btn"  value="%"></td>
+                    <td><input class="calc-btn"  value="/"></td>
+                    
+                </tr>
+    
+                <tr>
+                    <td><input class="calc-btn"  value="7"></td>
+                    <td><input class="calc-btn"  value="8"></td>
+                    <td><input class="calc-btn"  value="9"></td>
+                    <td><input class="calc-btn"  value="x"></td>
+                </tr>
+              
+                <tr>
+                    <td><input class="calc-btn"  value="4"></td>
+                    <td><input class="calc-btn"  value="5"></td>
+                    <td><input class="calc-btn"  value="6"></td>
+                    <td><input class="calc-btn"  value="-"></td>
+                </tr>
+              
+                <tr>
+                    <td><input class="calc-btn"  value="1"></td>
+                    <td><input class="calc-btn"  value="2"></td>
+                    <td><input class="calc-btn"  value="3"></td>
+                    <td><input class="calc-btn"  value="+"></td>
+              </tr>
+    
+              <tr>
+                    <td><input class="calc-btn"  value="0"></td>
+                    <td><input class="calc-btn"  value="."></td>
+                    <td><input class="calc-btn"  value="#"></td>
+                    <td><input class="calc-btn"  value="="></td>
+              </tr>
+        </table>
+        
+          <div class="calc-flex">
+          <h3>Calculator using flex</h3>
+            <div class="container">
+        <div class="result">0</div>
+        <div class="buttons">
+            <span class="button resetBtn">AC</span>
+            <span class="button negative operator">+/-</span>
+            <span class="button operator percent">%</span>
+            <span class="button operator">/</span>
+            <span class="button number">7</span>
+            <span class="button number">8</span>
+            <span class="button number">9</span>
+            <span class="button operator">*</span>
+            <span class="button number">4</span>
+            <span class="button number">5</span>
+            <span class="button number">6</span>
+            <span class="button operator">-</span>
+            <span class="button number">1</span>
+            <span class="button number">2</span>
+            <span class="button number">3</span>
+            <span class="button operator">+</span>
+            <span class="button number zero-btn">0</span>
+            <span class="button number dot">.</span>
+            <span class="button  operator">=</span>
+        </div>
+    </div>
+        </div>
+      </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background: #3e4a61;
+    font-size: 20px;
+  }
+  
+  .login-container{
+    width: 40%;
+    margin: 50px auto;
+    border: solid #1D2D44;
+  }
+  
+  .nav{
+    margin: 2px 20px 80px;
+  }
+  
+  .active{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      height: 40px;
+      border-radius: 5px;  
+      font-size: 12px;
+  }
+  
+  .conpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 12px;
+  }
+  
+  .regpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 12px;
+  }
+  
+  .calcpg{
+      color: black;
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 12px;
+  }
+  
+  h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1D2D44;
+  }
+  
+  label{
+    color: #1D2D44;
+  }
+  
+  .lgn-fm{
+    text-align: center;
+  }
+  
+  input{
+    width: 50%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 35px;
+  }
+  
+  button{
+    background: #1D2D44;
+    height: 30px;
+    border-radius: 20px;
+    margin: 20px 0 20px 150px;
+  }
